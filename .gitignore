@@ -16,4 +16,15 @@ checkpoints/
 
 # 강사용 완성코드
 *_completion.ipynb
-results/
+# 결과물은 기본적으로 제외하고 제출한 산출물만 추적
+**/results/*
+!mini-project-01/results/01_final_model.joblib
+!mini-project-01/results/01_hourly_mae_validation.csv
+!mini-project-01/results/01_model_comparison.csv
+!mini-project-01/results/02_final_classifier.joblib
+!mini-project-01/results/02_model_comparison.csv
+!mini-project-01/results/02_model_config.json
+!mini-project-01/results/02_threshold_comparison.csv
+
+# 명세서 작업 중 생성한 임시 파일과 검토 산출물
+/outputs/
