@@ -1,0 +1,18 @@
+Model,Train MAE,Train RMSE,Train R2,Valid MAE,Valid RMSE,Valid R2,Gap (Valid-Train MAE)
+RandomForest_trees_200_depth_None,10.217,16.438,0.988,94.532,142.248,0.593,84.314
+RandomForest_trees_200_depth_20,14.773,22.981,0.977,94.758,142.56,0.591,79.985
+RandomForest_trees_100_depth_None,10.331,16.636,0.988,94.877,143.15,0.588,84.546
+RandomForest_trees_50_depth_20,14.996,23.491,0.976,95.074,142.015,0.595,80.078
+RandomForest_trees_100_depth_20,14.845,23.099,0.977,95.225,143.573,0.586,80.38
+RandomForest_trees_50_depth_None,10.539,17.167,0.987,95.352,142.763,0.59,84.813
+RandomForest_trees_200_depth_15,22.844,34.986,0.947,96.082,142.531,0.592,73.238
+RandomForest_trees_100_depth_15,22.922,35.094,0.947,96.481,143.568,0.586,73.559
+RandomForest_trees_50_depth_15,23.084,35.482,0.946,98.156,144.615,0.58,75.072
+DecisionTree_depth_None,0.012,0.551,1.0,99.455,153.082,0.529,99.443
+LinearRegression,55.334,73.41,0.768,99.854,124.008,0.691,44.52
+DecisionTree_depth_15,21.628,40.712,0.929,101.432,157.598,0.501,79.804
+DecisionTree_depth_12,32.297,52.673,0.881,107.288,161.604,0.475,74.991
+DecisionTree_depth_20,9.61,23.392,0.976,110.955,174.651,0.387,101.345
+DecisionTree_depth_6,62.34,84.667,0.691,120.455,160.465,0.482,58.115
+DecisionTree_depth_3,82.785,108.741,0.491,158.976,194.181,0.242,76.191
+DummyRegressor,119.572,152.4,0.0,194.109,253.892,-0.296,74.538
