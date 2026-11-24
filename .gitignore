@@ -28,3 +28,7 @@ checkpoints/
 
 # 명세서 작업 중 생성한 임시 파일과 검토 산출물
 /outputs/
+
+# NLP 실행 데이터 및 모델 캐시
+/mini-project-02/code/nlp_bert_mini/
+/mini-project-02/nlp_bert_mini/
